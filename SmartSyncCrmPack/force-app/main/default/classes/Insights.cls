@@ -1,7 +1,4 @@
-/**
- * @description Apex-defined class for Flow input, used to stage insights.
- */
-global class Insights {
+public class Insights {
     @InvocableVariable(required=true)
     public Id Id;
 
