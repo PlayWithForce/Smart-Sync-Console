@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>SmartSync_Integration_Endpoint__mdt.Base_Url__c</members>
+        <members>SmartSync_Integration_Endpoint__mdt.Http_Method__c</members>
+        <members>SmartSync_Integration_Endpoint__mdt.Synch_Endpoint__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>SmartSync_Integration_Endpoint__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>SmartSync_Integration_Endpoint__mdt.Insight_Metadata</members>
+        <members>SmartSync_Integration_Endpoint__mdt.Calculated_Insight</members>
+        <name>CustomMetadata</name>
+    </types>
+    <version>64.0</version>
+</Package>

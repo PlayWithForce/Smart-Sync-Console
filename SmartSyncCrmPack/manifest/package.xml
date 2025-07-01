@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <!-- Custom Metadata Type -->
+    <types>
+        <members>Smart_Sync_Integration_Configuration__mdt</members>
+        <name>CustomObject</name>
+    </types>
+
+    <!-- Custom Metadata Fields -->
+    <types>
+        <members>Smart_Sync_Integration_Configuration__mdt.Endpoint__c</members>
+        <members>Smart_Sync_Integration_Configuration__mdt.Endpoint_Base__c</members>
+        <members>Smart_Sync_Integration_Configuration__mdt.Method__c</members>
+        <name>CustomField</name>
+    </types>
+
+    <!-- Custom Metadata Record -->
+    <types>
+        <members>Smart_Sync_Integration_Configuration.Default</members>
+        <name>CustomMetadata</name>
+    </types>
+
+    <!-- Apex Classes -->
+    <types>
+        <members>DataCloudAuthService</members>
+        <members>DataCloudAuthServiceTest</members>
+        <members>DataCloudIntegrationUtil</members>
+        <members>DataCloudIntegrationUtilTest</members>
+        <members>smartSyncService</members>
+        <members>smartSyncServiceTest</members>
+        <name>ApexClass</name>
+    </types>
+
+    <!-- Named Credentials -->
+    <types>
+        <members>DataCloudJWT_Native</members>
+        <name>NamedCredential</name>
+    </types>
+
+    <!-- ApexTriggers (optional) -->
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+
+    <!-- Visualforce Pages & Components (optional) -->
+    <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+
+    <!-- API version -->
+    <version>59.0</version>
+</Package>
